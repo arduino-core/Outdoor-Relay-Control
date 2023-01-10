@@ -3,6 +3,7 @@ void setup(){
 }
 
 void loop(){
+  temperature_sensor();
 }
 
 void pin(int pin, type){
