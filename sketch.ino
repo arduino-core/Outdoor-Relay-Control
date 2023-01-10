@@ -4,6 +4,7 @@ void setup(){
 
 void loop(){
   temperature_sensor();
+  potentiometer_switch();
 }
 
 void pin(int pin, type){
