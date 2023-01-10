@@ -23,8 +23,8 @@ void potentiometer_switch(){
   value2 = analogRead(A2);
   value3 = analogRead(A3);
   value4 = analogRead(A4);
-  analogValue1 = map(value1, 0, 1023, VALUE_MIN, VALUE_MAX);
-  analogValue2 = map(value2, 0, 1023, VALUE_MIN, VALUE_MAX);
-  analogValue3 = map(value3, 0, 1023, VALUE_MIN, VALUE_MAX);
-  analogValue4 = map(value4, 0, 1023, VALUE_MIN, VALUE_MAX);
+  analogValue1 = map(value1, 0, 1023, 0, 24);
+  analogValue2 = map(value2, 0, 1023, 0, 45);
+  analogValue3 = map(value3, 0, 1023, 0, 24);
+  analogValue4 = map(value4, 0, 1023, 0, 45);
 }
