@@ -7,8 +7,8 @@ void loop(){
   potentiometer_switch();
 }
 
-void pin(int pin, type){
-  digitalWrite(pin, type);
+void pin(int pin, int value){
+  digitalWrite(pin, value);
 }
 
 void temperature_sensor(){
