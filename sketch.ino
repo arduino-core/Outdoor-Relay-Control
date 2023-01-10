@@ -19,5 +19,8 @@ void temperature_sensor(){
 }
 
 void potentiometer_switch(){
-  value = analogRead(A1);
+  value1 = analogRead(A1);
+  value2 = analogRead(A2);
+  value3 = analogRead(A3);
+  value4 = analogRead(A4);
 }
