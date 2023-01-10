@@ -16,3 +16,6 @@ void temperature_sensor(){
   Serial.print(temperature);
   delay(180000);
 }
+
+void potentiometer_switch(){
+}
