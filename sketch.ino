@@ -44,9 +44,11 @@ void temperature_sensor(){
 
 void potentiometer_switch(){
   potentiometer_value1 = analogRead(A1);
+  potentiometer_clock_min = analogRead(A1);
   potentiometer_value2 = analogRead(A2);
   potentiometer_temperature_min = analogRead(A2);
   potentiometer_value3 = analogRead(A3);
+  potentiometer_clock_max = analogRead(A3);
   potentiometer_value4 = analogRead(A4);
   potentiometer_temperature_max = analogRead(A4);
   potentiometer_analogValue1 = map(potentiometer_value1, 0, 1023, 0, 24); // Clock Potentiometer Min Value Definition
@@ -68,5 +70,33 @@ void potentiometer_switch(){
 }
 
 void rgb_led(){
-  analogWrite(9, 150);
+  analogWrite(9, 255);
+  analogWrite(10, 255);
+  analogWrite(11, 255);
 }
+
+void rgb_led_saved(){
+  analogWrite(9, 255);
+  analogWrite(10, 255);
+  analogWrite(11, 255);
+  delay(1000);
+  analogWrite(9, 0);
+  analogWrite(10, 0);
+  analogWrite(11, 0);
+  delay(1000);
+  analogWrite(9, 255);
+  analogWrite(10, 255);
+  analogWrite(11, 255);
+  delay(1000);
+  analogWrite(9, 0);
+  analogWrite(10, 0);
+  analogWrite(11, 0);
+  delay(1000);
+  analogWrite(9, 255);
+  analogWrite(10, 255);
+  analogWrite(11, 255);
+  delay(1000);
+  analogWrite(9, 0);
+  analogWrite(10, 0);
+  analogWrite(11, 0);
+  }
