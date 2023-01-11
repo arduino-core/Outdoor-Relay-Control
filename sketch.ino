@@ -23,9 +23,7 @@ void setup(){
 }
 
 void loop(){
-  // temperature_sensor();
   potentiometer_switch();
-  rgb_led();
 }
 
 void pin(int pin, int value){
@@ -33,6 +31,7 @@ void pin(int pin, int value){
 }
 
 void temperature_delay(){
+  rgb_led(255, 136, 0);
   delay(18000);
   }
 
@@ -55,6 +54,7 @@ void potentiometer_switch(){
   potentiometer_analogValue2 = map(potentiometer_value2, 0, 1023, 0, 45); // Temperature Sensor Potentiometer Min Value Definition
   potentiometer_analogValue3 = map(potentiometer_value3, 0, 1023, 0, 24); // Clock Potentiometer Max Value Definition
   potentiometer_analogValue4 = map(potentiometer_value4, 0, 1023, 0, 45); // Temperature Sensor Potentiometer Max Value Definition
+  rgb_led_procress();
   if (temperature_value >= potentiometer_temperature_min){
     // Turn on the Relay
     }
@@ -65,25 +65,18 @@ void potentiometer_switch(){
     temperature_sensor();
     }
   else if (clock_time <= potentiometer_clock_max){
+    temperature_value = 0;
     clock_time = 0;
   }
 }
 
-void rgb_led(){
-  analogWrite(9, 255);
-  analogWrite(10, 255);
-  analogWrite(11, 255);
+void rgb_led(int value1, int value2, int value3){
+  analogWrite(9, value1);
+  analogWrite(10, value2);
+  analogWrite(11, value3);
 }
 
-void rgb_led_saved(){
-  analogWrite(9, 255);
-  analogWrite(10, 255);
-  analogWrite(11, 255);
-  delay(1000);
-  analogWrite(9, 0);
-  analogWrite(10, 0);
-  analogWrite(11, 0);
-  delay(1000);
+void rgb_led_procress(){
   analogWrite(9, 255);
   analogWrite(10, 255);
   analogWrite(11, 255);
