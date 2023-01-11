@@ -8,6 +8,7 @@ void setup(){
 void loop(){
   temperature_sensor();
   potentiometer_switch();
+  rgb_led();
 }
 
 void pin(int pin, int value){
@@ -30,4 +31,8 @@ void potentiometer_switch(){
   analogValue2 = map(value2, 0, 1023, 0, 45);
   analogValue3 = map(value3, 0, 1023, 0, 24);
   analogValue4 = map(value4, 0, 1023, 0, 45);
+}
+
+void rgb_led(){
+  analogWrite(9, 150);
 }
