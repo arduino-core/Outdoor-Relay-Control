@@ -50,10 +50,10 @@ void potentiometer_switch(){
   potentiometer_clock_max = analogRead(A3);
   potentiometer_value4 = analogRead(A4);
   potentiometer_temperature_max = analogRead(A4);
-  potentiometer_analogValue1 = map(potentiometer_value1, 0, 1023, 0, 24); // Clock Potentiometer Min Value Definition
-  potentiometer_analogValue2 = map(potentiometer_value2, 0, 1023, 0, 45); // Temperature Sensor Potentiometer Min Value Definition
-  potentiometer_analogValue3 = map(potentiometer_value3, 0, 1023, 0, 24); // Clock Potentiometer Max Value Definition
-  potentiometer_analogValue4 = map(potentiometer_value4, 0, 1023, 0, 45); // Temperature Sensor Potentiometer Max Value Definition
+  potentiometer_analogValue1 = map(potentiometer_value1, 0, 1023, 0, 24);
+  potentiometer_analogValue2 = map(potentiometer_value2, 0, 1023, 0, 45);
+  potentiometer_analogValue3 = map(potentiometer_value3, 0, 1023, 0, 24);
+  potentiometer_analogValue4 = map(potentiometer_value4, 0, 1023, 0, 45);
   rgb_led_procress();
   if (temperature_value >= potentiometer_temperature_min){
     // Turn on the Relay
