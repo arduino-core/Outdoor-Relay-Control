@@ -35,7 +35,14 @@ Set the min/max temperature value of the potentiometers
 ```cpp
 int temperature_value = 0;
 int temperature = 0;
+```
+Set the temperature value of the potentiometers
+```cpp
 int potentiometer_clock_min = 0;
 int potentiometer_clock_max = 0;
+```
+Set the min/max clock value of the potentiometers
+```cpp
 int clock_time = 0;
 ```
+Set the clock value of the potentiometers
