@@ -6,3 +6,7 @@
 * `1` Breadboard 800 points
 * `21` Female Jumper Wires
 * `42` Male Jumper Wires
+
+## Tools and Machines
+
+* 3D printer
