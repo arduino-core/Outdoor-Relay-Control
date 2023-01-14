@@ -11,6 +11,10 @@
 
 * `1` 3D printer
 
+## Schema
+
+[See the Schema](https://wokwi.com/projects/353834225920033793)
+
 ## Project description
 
 ```cpp
