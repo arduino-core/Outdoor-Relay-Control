@@ -9,4 +9,6 @@
 
 ## Tools and Machines
 
-* 3D printer
+* `1` 3D printer
+
+## Project description
