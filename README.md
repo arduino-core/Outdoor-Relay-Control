@@ -15,9 +15,11 @@
 
 * `1` 3D printer
 
-## Schema
+## Links
 
-[See the Schema](https://wokwi.com/projects/353834225920033793)
+[Schema](https://wokwi.com/projects/353834225920033793)
+
+[Tindie](https://tindie.com/stores/arduino-core)
 
 ## Project description
 
