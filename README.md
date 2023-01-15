@@ -45,13 +45,33 @@ int potentiometer_value4 = 0;
 ```cpp
 int potentiometer_analogValue1 = 0;
 ```
-* int potentiometer_analogValue2 = 0;
-* int potentiometer_analogValue3 = 0;
-* int potentiometer_analogValue4 = 0;
-* int potentiometer_temperature_min = 0;
-* int potentiometer_temperature_max = 0;
-* int temperature_value = 0;
-* int temperature = 0;
-* int potentiometer_clock_min = 0;
-* int potentiometer_clock_max = 0;
-* int clock_time = 0;
+```cpp
+int potentiometer_analogValue2 = 0;
+```
+```cpp
+int potentiometer_analogValue3 = 0;
+```
+```cpp
+int potentiometer_analogValue4 = 0;
+```
+```cpp
+int potentiometer_temperature_min = 0;
+```
+```cpp
+int potentiometer_temperature_max = 0;
+```
+```cpp
+int temperature_value = 0;
+```
+```cpp
+int temperature = 0;
+```
+```cpp
+int potentiometer_clock_min = 0;
+```
+```cpp
+int potentiometer_clock_max = 0;
+```
+```cpp
+int clock_time = 0;
+```
