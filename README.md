@@ -274,4 +274,4 @@ void rgb_led_procress(){
 
 ### Support us
 
-You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/) for $ 27.
+You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
