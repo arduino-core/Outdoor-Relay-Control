@@ -293,6 +293,12 @@ graph TD;
     Potentiometer_Temperature_Min-->potentiometer_value2;
     Potentiometer_Temperature_Min-->potentiometer_analogValue2;
     Potentiometer_Temperature_Min-->potentiometer_temperature_min;
+    Potentiometer_Time_Max-->potentiometer_value3;
+    Potentiometer_Time_Max-->potentiometer_analogValue3;
+    Potentiometer_Time_Max-->potentiometer_clock_max;
+    Potentiometer_Time_Min-->potentiometer_value1;
+    Potentiometer_Time_Min-->potentiometer_analogValue1;
+    Potentiometer_Time_Min-->potentiometer_clock_min;
 ```
 
 ### Support us
