@@ -4,7 +4,11 @@
 
 **Overview**
 
-[Components and suplies](#components-and-suplies)
+* [Components and suplies](#components-and-suplies)
+* [Tools and machines](#tools-and-machines)
+* [Links](#links)
+* [Project description](#project-description)
+  * [`int`](#int)
 
 ## Components and suplies
 
@@ -15,7 +19,7 @@
 * `1` Temperature Sensor TMP36
 * `1` LCD Display
 
-## Tools and Machines
+## Tools and machines
 
 * `1` 3D printer
 
