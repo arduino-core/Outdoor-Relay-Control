@@ -4,12 +4,13 @@
 
 **Overview**
 
-* [Components and suplies](#components-and-suplies)
-* [Tools and machines](#tools-and-machines)
+* [Components and Suplies](#components-and-suplies)
+* [Tools and Machines](#tools-and-machines)
 * [Links](#links)
-* [Project description](#project-description)
+* [Project Description](#project-description)
   * [`int`](#int)
-    * [Integers in this project](#integers-in-this-project)
+    * [Integers](#integers)
+    * [Defined Integers](#defined-integers)
 
 ## Components and suplies
 
