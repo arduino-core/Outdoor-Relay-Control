@@ -17,9 +17,13 @@
 
 ## Links
 
-[Schema](https://wokwi.com/projects/353834225920033793)
+[Source Code](https://github.com/arduino-core/Greenhouse-Automation)
 
-[Tindie](https://tindie.com/stores/arduino-core)
+[Documentation](https://hackaday.io/project/189172-greenhouse-automation)
+
+[Design Files](https://wokwi.com/projects/353834225920033793)
+
+[Shop](https://tindie.com/stores/arduino-core)
 
 ## Project description
 
