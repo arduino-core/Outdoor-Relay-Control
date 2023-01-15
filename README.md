@@ -2,6 +2,10 @@
 
 <a href="https://www.tindie.com/stores/arduino-core/?ref=offsite_badges&utm_source=sellers_arduino-core&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="Ad" width="200" height="104"></a>
 
+**Overview**
+
+[Components and suplies](#components-and-suplies)
+
 ## Components and suplies
 
 * `1` Arduino Uno R3
