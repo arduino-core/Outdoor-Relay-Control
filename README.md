@@ -91,3 +91,48 @@ int clock_time;
 #### Defined Integers
 
 All defined integers in this project
+
+int potentiometer_value1;
+```
+```cpp
+int potentiometer_value2;
+```
+```cpp
+int potentiometer_value3;
+```
+```cpp
+int potentiometer_value4;
+```
+```cpp
+int potentiometer_analogValue1;
+```
+```cpp
+int potentiometer_analogValue2;
+```
+```cpp
+int potentiometer_analogValue3;
+```
+```cpp
+int potentiometer_analogValue4;
+```
+```cpp
+int potentiometer_temperature_min;
+```
+```cpp
+int potentiometer_temperature_max;
+```
+```cpp
+int temperature_value;
+```
+```cpp
+int temperature;
+```
+```cpp
+int potentiometer_clock_min;
+```
+```cpp
+int potentiometer_clock_max;
+```
+```cpp
+int clock_time;
+```
