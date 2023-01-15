@@ -23,37 +23,26 @@
 
 ## Project description
 
+### `int`
+
 ```cpp
-int potentiometer_value1 = 0;
-int potentiometer_value2 = 0;
-int potentiometer_value3 = 0;
-int potentiometer_value4 = 0;
-
-// Set the potentiometer standard value
-
-int potentiometer_analogValue1 = 0;
-int potentiometer_analogValue2 = 0;
-int potentiometer_analogValue3 = 0;
-int potentiometer_analogValue4 = 0;
-
-// Set the potentiometer analog standard value
-
-int potentiometer_temperature_min = 0;
-int potentiometer_temperature_max = 0;
-
-// Set the standard value of minimum and maximum temperature
-
-int temperature_value = 0;
-int temperature = 0;
-
-// Set the standard temperature value
-
-int potentiometer_clock_min = 0;
-int potentiometer_clock_max = 0;
-
-// Set the standard value of minimum and maximum time
-
-int clock_time = 0;
-
-// Set the standard time value
+int {variable} = {value};
 ```
+
+We use the following integers in this project
+
+* `int potentiometer_value1 = 0;`
+* int potentiometer_value2 = 0;
+* int potentiometer_value3 = 0;
+* int potentiometer_value4 = 0;
+* int potentiometer_analogValue1 = 0;
+* int potentiometer_analogValue2 = 0;
+* int potentiometer_analogValue3 = 0;
+* int potentiometer_analogValue4 = 0;
+* int potentiometer_temperature_min = 0;
+* int potentiometer_temperature_max = 0;
+* int temperature_value = 0;
+* int temperature = 0;
+* int potentiometer_clock_min = 0;
+* int potentiometer_clock_max = 0;
+* int clock_time = 0;
