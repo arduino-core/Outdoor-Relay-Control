@@ -17,9 +17,9 @@
 
 ## Links
 
-[Source Code](https://github.com/arduino-core/Greenhouse-Automation)
+[Source Code](https://github.com/arduino-core/Outdoor-Relay-Control)
 
-[Documentation](https://hackaday.io/project/189172-greenhouse-automation)
+[Documentation](https://hackaday.io/project/189172-outdoor-relay-control)
 
 [Design Files](https://wokwi.com/projects/353834225920033793)
 
