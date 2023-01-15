@@ -31,6 +31,20 @@
 
 ## Project description
 
+### Diagram
+
+```mermaid
+graph TD;
+    Arduino-->Potentiometer1;
+    Arduino-->Potentiometer2;
+    Potentiometer1-->Temperature;
+    Potentiometer2-->Time;
+    Time-->ifTimeReached;
+    Temperature-->ifTemperatureReached;
+    ifTimeReached-->Relay;
+    ifTemperatureReached-->Relay;
+```
+
 ### `int`
 
 ```cpp
