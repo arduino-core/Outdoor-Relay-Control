@@ -9,6 +9,7 @@
 * [Links](#links)
 * [Project description](#project-description)
   * [`int`](#int)
+    * [Used integers in this project](#used-integers-in-this-project)
 
 ## Components and suplies
 
