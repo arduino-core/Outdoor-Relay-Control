@@ -23,7 +23,7 @@
 
 [Design Files](https://wokwi.com/projects/353834225920033793)
 
-[Shop](https://tindie.com/stores/arduino-core)
+[Shop](https://www.tindie.com/products/arduino-core/outdoor-relay-control/)
 
 ## Project description
 
