@@ -220,6 +220,7 @@ void rgb_led(int value1, int value2, int value3){
   analogWrite(11, value3);
 }
 ```
+```cpp
 void rgb_led_procress(){
   analogWrite(9, 255);
   analogWrite(10, 255);
@@ -237,3 +238,4 @@ void rgb_led_procress(){
   analogWrite(10, 0);
   analogWrite(11, 0);
   }
+```
