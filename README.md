@@ -35,24 +35,16 @@
 
 ```mermaid
 graph TD;
-    Arduino-->Potentiometer1_Min;
-    Arduino-->Potentiometer2_Min;
-    Arduino-->Potentiometer1_Max;
-    Arduino-->Potentiometer2_Max;
-    Potentiometer1_Min-->Temperature_Min;
-    Potentiometer2_Min-->Time_Min;
-    Potentiometer1_Max-->Temperature_Max;
-    Potentiometer2_Max-->Time_Max;
-    Time_Max-->ifTime_MaxReached;
-    Time_Min-->ifTime_MinReached;
-    Temperature_Max-->ifTemperature_MaxReached;
-    Temperature_Min-->ifTemperature_MinReached;
-    ifTime_MaxReached-->TurnOff;
-    ifTime_MinReached-->CheckTemperature;
-    CheckTemperature-->ifTemperature_MaxReached;
-    CheckTemperature-->ifTemperature_MinReached;
-    ifTemperature_MinReached-->ActivateRelay;
-    ifTemperature_MaxReached-->DisableRelay;
+    Arduino-->Time_Potentiometer;
+    Arduino-->Temperature_Potentiometer;
+    Time_Potentiometer-->Time_Max;
+    Time_Potentiometer-->Time_Min;
+    Temperature_Potentiometer-->Temperature_Max;
+    Temperature_Potentiometer-->Temperature_Min;
+    Time_Max-->Time_MaxReached;
+    Time_Min-->Time_MinReached;
+    Temperature_Max-->Temperature_MaxReached;
+    Temperature_Min-->Temperature_MinReached;
 ```
 
 ### `int`
