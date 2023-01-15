@@ -45,6 +45,12 @@ graph TD;
     Time_Min-->Time_MinReached;
     Temperature_Max-->Temperature_MaxReached;
     Temperature_Min-->Temperature_MinReached;
+    Time_MinReached-->CheckTemperature;
+    Time_MaxReached-->TurnOff;
+    Temperature_MinReached-->Relay_TurnOn;
+    Temperature_MaxReached-->TurnOff;
+    CheckTemperature-->Temperature_MinReached;
+    CheckTemperature-->Temperature_MaxReached;
 ```
 
 ### `int`
