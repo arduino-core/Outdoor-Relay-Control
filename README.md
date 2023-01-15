@@ -33,7 +33,7 @@
 
 ### Diagram
 
-You can see the full diagram with all integers, variables and parts [here](#full-diagram). **Warning! The full diagram is much bigger than this.**
+You can see the full diagram with all integers, variables and parts [here](#full-diagram).
 
 ```mermaid
 graph TD;
@@ -271,6 +271,8 @@ void rgb_led_procress(){
   analogWrite(11, 0);
   }
 ```
+
+### Full diagram
 
 ### Support us
 
