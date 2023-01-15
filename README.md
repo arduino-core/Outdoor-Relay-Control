@@ -277,6 +277,12 @@ void rgb_led_procress(){
 ```mermaid
 graph TD;
     Arduino-->Temperature_Sensor_TMP36;
+    Arduino-->Green_LED;
+    Arduino-->Potentiometer_Temperature_Max;
+    Arduino-->Potentiometer_Temperature_Min;
+    Arduino-->Potentiometer_Time_Max;
+    Arduino-->Potentiometer_Time_Min;
+    Arduino-->RGB_LED;
 ```
 
 ### Support us
