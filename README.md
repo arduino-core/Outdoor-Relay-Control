@@ -28,14 +28,23 @@
 ```cpp
 int {variable} = {value};
 ```
+#### Used integers in this project
 
-We use the following integers in this project
-
-* `int potentiometer_value1 = 0;`
-* int potentiometer_value2 = 0;
-* int potentiometer_value3 = 0;
-* int potentiometer_value4 = 0;
-* int potentiometer_analogValue1 = 0;
+```cpp
+int potentiometer_value1 = 0;
+```
+```cpp
+int potentiometer_value2 = 0;
+```
+```cpp
+int potentiometer_value3 = 0;
+```
+```cpp
+int potentiometer_value4 = 0;
+```
+```cpp
+int potentiometer_analogValue1 = 0;
+```
 * int potentiometer_analogValue2 = 0;
 * int potentiometer_analogValue3 = 0;
 * int potentiometer_analogValue4 = 0;
