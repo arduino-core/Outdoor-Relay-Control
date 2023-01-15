@@ -169,18 +169,21 @@ void loop(){
 void pin(int pin, int value){
   digitalWrite(pin, value);
 }
+```
 ```cpp
 void temperature_delay(){
   rgb_led(255, 136, 0);
   delay(18000);
   }
-
+```
+```cpp
 void temperature_sensor(){
   temperature_value = analogRead(A0);
   temperature = map(temperature_value, 0, 410, -50, 150);
   temperature_delay();
 }
-
+```
+```cpp
 void potentiometer_switch(){
   potentiometer_value1 = analogRead(A1);
   potentiometer_clock_min = analogRead(A1);
@@ -209,13 +212,14 @@ void potentiometer_switch(){
     clock_time = 0;
   }
 }
-
+```
+```cpp
 void rgb_led(int value1, int value2, int value3){
   analogWrite(9, value1);
   analogWrite(10, value2);
   analogWrite(11, value3);
 }
-
+```
 void rgb_led_procress(){
   analogWrite(9, 255);
   analogWrite(10, 255);
