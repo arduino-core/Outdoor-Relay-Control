@@ -12,8 +12,8 @@
 
 * `1` Arduino Uno R3
 * `1` Breadboard 800 points
-* `21` Female Jumper Wires
-* `42` Male Jumper Wires
+* `?` Female Jumper Wires
+* `?` Male Jumper Wires
 * `1` Temperature Sensor TMP36
 * `1` LCD Display
 
