@@ -92,6 +92,7 @@ int clock_time;
 
 All defined integers in this project
 
+```cpp
 int potentiometer_value1;
 ```
 ```cpp
