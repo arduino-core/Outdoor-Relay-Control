@@ -9,8 +9,9 @@
 * [Links](#links)
 * [Project Description](#project-description)
   * [`int`](#int)
-    * [Integers](#integers)
-    * [Defined Integers](#defined-integers)
+    * [Project specific integers](#project-specific-integers)
+      * [Integers](#integers)
+      * [Defined Integers](#defined-integers)
 
 ## Components and suplies
 
@@ -38,59 +39,10 @@
 ```cpp
 int {variable} = {value};
 ```
-#### Integers
 
-All integers in this project
+#### Project specific integers
 
-```cpp
-int potentiometer_value1;
-```
-```cpp
-int potentiometer_value2;
-```
-```cpp
-int potentiometer_value3;
-```
-```cpp
-int potentiometer_value4;
-```
-```cpp
-int potentiometer_analogValue1;
-```
-```cpp
-int potentiometer_analogValue2;
-```
-```cpp
-int potentiometer_analogValue3;
-```
-```cpp
-int potentiometer_analogValue4;
-```
-```cpp
-int potentiometer_temperature_min;
-```
-```cpp
-int potentiometer_temperature_max;
-```
-```cpp
-int temperature_value;
-```
-```cpp
-int temperature;
-```
-```cpp
-int potentiometer_clock_min;
-```
-```cpp
-int potentiometer_clock_max;
-```
-```cpp
-int clock_time;
-```
-
-#### Defined Integers
-
-All defined integers in this project
+##### Integers
 
 ```cpp
 int potentiometer_value1;
@@ -136,4 +88,52 @@ int potentiometer_clock_max;
 ```
 ```cpp
 int clock_time;
+```
+
+##### Defined Integers
+
+```cpp
+int potentiometer_value1 = 0;
+```
+```cpp
+int potentiometer_value2 = 0;
+```
+```cpp
+int potentiometer_value3 = 0;
+```
+```cpp
+int potentiometer_value4 = 0;
+```
+```cpp
+int potentiometer_analogValue1 = 0;
+```
+```cpp
+int potentiometer_analogValue2 = 0;
+```
+```cpp
+int potentiometer_analogValue3 = 0;
+```
+```cpp
+int potentiometer_analogValue4 = 0;
+```
+```cpp
+int potentiometer_temperature_min = 0;
+```
+```cpp
+int potentiometer_temperature_max = 0;
+```
+```cpp
+int temperature_value = 0;
+```
+```cpp
+int temperature = 0;
+```
+```cpp
+int potentiometer_clock_min = 0;
+```
+```cpp
+int potentiometer_clock_max = 0;
+```
+```cpp
+int clock_time = 0;
 ```
