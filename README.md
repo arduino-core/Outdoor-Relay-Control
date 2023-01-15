@@ -274,6 +274,11 @@ void rgb_led_procress(){
 
 ### Full diagram
 
+```mermaid
+graph TD;
+    Arduino-->Temperature_Sensor_TMP36;
+```
+
 ### Support us
 
 You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/) for $ 27.
