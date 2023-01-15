@@ -6,6 +6,8 @@
 
 `#4` Add LCD Display
 
+`#5` Add RTC Module
+
 ## Components and suplies
 
 * `1` Arduino Uno R3
