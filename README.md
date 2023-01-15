@@ -2,17 +2,6 @@
 
 <a href="https://www.tindie.com/stores/arduino-core/?ref=offsite_badges&utm_source=sellers_arduino-core&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="Ad" width="200" height="104"></a>
 
-**Overview**
-
-* [Components and Suplies](#components-and-suplies)
-* [Tools and Machines](#tools-and-machines)
-* [Links](#links)
-* [Project Description](#project-description)
-  * [`int`](#int)
-    * [Project specific integers](#project-specific-integers)
-      * [Integers](#integers)
-      * [Defined Integers](#defined-integers)
-
 ## Components and suplies
 
 * `1` Arduino Uno R3
@@ -40,9 +29,9 @@
 int {variable} = {value};
 ```
 
-#### Project specific integers
+#### Integers
 
-##### Integers
+In the following list, you'll see all used integers in the project. The definition of the integers is [here](#defined-integers).
 
 ```cpp
 int potentiometer_value1;
@@ -90,7 +79,9 @@ int potentiometer_clock_max;
 int clock_time;
 ```
 
-##### Defined Integers
+#### Defined Integers
+
+The following list contains definitions of used integers in this project.
 
 ```cpp
 int potentiometer_value1 = 0;
@@ -137,3 +128,22 @@ int potentiometer_clock_max = 0;
 ```cpp
 int clock_time = 0;
 ```
+
+### `void`
+
+```cpp
+void {function}({attributes}){
+  // Run your code here
+}
+```
+
+```cpp
+void setup(){
+  // This code runs one time
+}
+```
+
+```cpp
+void loop(){
+  // This code runs immediately
+}
