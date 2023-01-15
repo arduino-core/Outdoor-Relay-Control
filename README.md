@@ -33,8 +33,6 @@
 
 ### Diagram
 
-You can see the full diagram with all integers, variables and parts [here](#full-diagram).
-
 ```mermaid
 graph TD;
     Arduino-->Time_Potentiometer;
@@ -270,35 +268,6 @@ void rgb_led_procress(){
   analogWrite(10, 0);
   analogWrite(11, 0);
   }
-```
-
-### Full diagram
-
-```mermaid
-graph TD;
-    Arduino-->Temperature_Sensor_TMP36;
-    Arduino-->Green_LED;
-    Arduino-->Potentiometer_Temperature_Max;
-    Arduino-->Potentiometer_Temperature_Min;
-    Arduino-->Potentiometer_Time_Max;
-    Arduino-->Potentiometer_Time_Min;
-    Arduino-->RGB_LED;
-    Temperature_Sensor_TMP36-->temperature;
-    Temperature_Sensor_TMP36-->temperature_value;
-    Green_LED-->Green_LED_On;
-    Green_LED-->Green_LED_Off;
-    Potentiometer_Temperature_Max-->potentiometer_value4;
-    Potentiometer_Temperature_Max-->potentiometer_analogValue4;
-    Potentiometer_Temperature_Max-->potentiometer_temperature_max;
-    Potentiometer_Temperature_Min-->potentiometer_value2;
-    Potentiometer_Temperature_Min-->potentiometer_analogValue2;
-    Potentiometer_Temperature_Min-->potentiometer_temperature_min;
-    Potentiometer_Time_Max-->potentiometer_value3;
-    Potentiometer_Time_Max-->potentiometer_analogValue3;
-    Potentiometer_Time_Max-->potentiometer_clock_max;
-    Potentiometer_Time_Min-->potentiometer_value1;
-    Potentiometer_Time_Min-->potentiometer_analogValue1;
-    Potentiometer_Time_Min-->potentiometer_clock_min;
 ```
 
 ### Support us
