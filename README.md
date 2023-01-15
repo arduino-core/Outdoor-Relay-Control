@@ -283,6 +283,11 @@ graph TD;
     Arduino-->Potentiometer_Time_Max;
     Arduino-->Potentiometer_Time_Min;
     Arduino-->RGB_LED;
+    Temperature_Sensor_TMP36-->temperature;
+    Temperature_Sensor_TMP36-->temperature_value;
+    Potentiometer_Temperature_Max-->potentiometer_value4;
+    Potentiometer_Temperature_Max-->potentiometer_analogValue4;
+    Potentiometer_Temperature_Max-->potentiometer_temperature_max;
 ```
 
 ### Support us
