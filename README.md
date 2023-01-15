@@ -30,33 +30,30 @@ int potentiometer_value3 = 0;
 int potentiometer_value4 = 0;
 
 // Set the potentiometer standard value
-```
-```cpp
+
 int potentiometer_analogValue1 = 0;
 int potentiometer_analogValue2 = 0;
 int potentiometer_analogValue3 = 0;
 int potentiometer_analogValue4 = 0;
 
 // Set the potentiometer analog standard value
-```
-```cpp
+
 int potentiometer_temperature_min = 0;
 int potentiometer_temperature_max = 0;
 
 // Set the standard value of minimum and maximum value
-```
-```cpp
+
 int temperature_value = 0;
 int temperature = 0;
 
 // Set the standard temperature value
-```
-```cpp
+
 int potentiometer_clock_min = 0;
 int potentiometer_clock_max = 0;
-```
-Set the min/max clock value of the potentiometers
-```cpp
+
+// Set the min/max clock value of the potentiometers
+
 int clock_time = 0;
+
+// Set the clock value of the potentiometers
 ```
-Set the clock value of the potentiometers
