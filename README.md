@@ -33,6 +33,8 @@
 
 ### Diagram
 
+You can see the full diagram with all integers, variables and parts [here](#full-diagram). **Warning! The full diagram is much bigger than this.**
+
 ```mermaid
 graph TD;
     Arduino-->Time_Potentiometer;
