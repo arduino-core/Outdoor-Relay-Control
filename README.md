@@ -55,13 +55,24 @@ graph TD;
     CheckTemperature-->Temperature_MaxReached;
 ```
 
-### `int`
+### Integers
+
+An integer is a positive or negative number.
 
 ```cpp
 int {variable} = {value};
 ```
 
-#### Integers
+#### Examples
+
+```cpp
+int example_integer1 = 0;
+```
+```cpp
+int example_integer2 = -4;
+```
+
+#### Used Integers
 
 In the following list, you'll see all used integers in the project. The definition of the integers is [here](#defined-integers).
 
@@ -275,3 +286,5 @@ void rgb_led_procress(){
 ### Support us
 
 :wink: You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
+
+[^1]: Source: [Wikipedia](https://en.m.wikipedia.org/wiki/Integer)
