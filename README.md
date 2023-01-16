@@ -8,7 +8,7 @@
 
 `#5` Add RTC Module
 
-`#6` Finish Project description
+`#6` Finish Integers section
 
 ## Components and suplies
 
