@@ -33,43 +33,24 @@
 
 ## Project description
 
-### Diagram
-
-```mermaid
-graph TD;
-    Arduino-->Time_Potentiometer;
-    Arduino-->Temperature_Potentiometer;
-    Time_Potentiometer-->Time_Max;
-    Time_Potentiometer-->Time_Min;
-    Temperature_Potentiometer-->Temperature_Max;
-    Temperature_Potentiometer-->Temperature_Min;
-    Time_Max-->Time_MaxReached;
-    Time_Min-->Time_MinReached;
-    Temperature_Max-->Temperature_MaxReached;
-    Temperature_Min-->Temperature_MinReached;
-    Time_MinReached-->CheckTemperature;
-    Time_MaxReached-->TurnOff;
-    Temperature_MinReached-->Relay_TurnOn;
-    Temperature_MaxReached-->TurnOff;
-    CheckTemperature-->Temperature_MinReached;
-    CheckTemperature-->Temperature_MaxReached;
-```
-
 ### Integers
 
-An integer is a positive or negative number.
+An integer is a positive or negative number including `0`.
 
 ```cpp
-int {variable} = {value};
+int year = 2023;
 ```
 
 #### Examples
 
 ```cpp
-int example_integer1 = 0;
+int zero = 0;
 ```
 ```cpp
-int example_integer2 = -4;
+int positive = 2;
+```
+```cpp
+int negative = -4;
 ```
 
 #### Used Integers
