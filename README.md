@@ -8,6 +8,8 @@
 
 `#5` Add RTC Module
 
+`#6` Finish Project description
+
 ## Components and suplies
 
 * `1` Arduino Uno R3
