@@ -12,6 +12,7 @@
 
 * `1` Arduino Uno R3
 * `1` Breadboard 800 points
+* `1` Breadbord 400 points
 * `?` Female Jumper Wires
 * `?` Male Jumper Wires
 * `1` Temperature Sensor TMP36
