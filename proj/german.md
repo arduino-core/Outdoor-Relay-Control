@@ -17,3 +17,20 @@ int positive = 8;
 ```cpp
 int zero = 0;
 ```
+
+## Funktionen
+
+Mit Funktionen kannst du deinen Code optimieren.
+
+```cpp
+void serial_print(text){
+  Serial.begin(9600);
+  Serial.println(text);
+}
+```
+
+Dieser Code würde mit `serial_print(text)` aufgerufen werden, wodurch `text` durch deinen eigenem Text ersetzt werden müsste.
+
+```cpp
+serial_print("Hello World!");
+```
