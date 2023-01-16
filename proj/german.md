@@ -18,9 +18,9 @@ int positive = 2;
 int negative = -4;
 ```
 
-#### Benutzte ganze Zahlen
+#### Ganze Zahlen im Projekt
 
-In der nachfolgenden Liste siehst du alle, im Projekt verwendeten `Integers` beziehungsweise ganze Zahlen. Die Definitation der `Integers` findest du [hier](#definierte-integers).
+In der nachfolgenden Liste siehst du alle, im Projekt verwendeten `Integers` beziehungsweise ganze Zahlen. Die Definition der `Integers` findest du [hier](#definierte-ganze-zahlen-im-projekt).
 
 ```cpp
 int potentiometer_value1;
@@ -68,7 +68,7 @@ int potentiometer_clock_max;
 int clock_time;
 ```
 
-#### Definierte Integers
+#### Definierte Ganze Zahlen im Projekt
 
 In dieser Liste sind alle `Integers` beziehungsweise ganze Zahlen, die in diesem Projekt verwendet wurden, definiert.
 
@@ -118,7 +118,7 @@ int potentiometer_clock_max = 0;
 int clock_time = 0;
 ```
 
-### `void`
+### Funktionen
 
 ```cpp
 void {function}({attributes}){
@@ -136,9 +136,18 @@ void loop(){
 }
 ```
 
-#### Functions
+#### Beispiele
 
-See all functions used in this project. To see the definitions of integers, see [this section](#defined-integers).
+```cpp
+void serial_print(text){
+  Serial.begin(9600);
+  Serial.println(text);
+}
+```
+
+#### Funktionen
+
+Hier sind alle Funktionen, die für dieses Projekt benötigt werden. Um die Definition der `Integers` beziehungsweise ganzer Zahler zu sehen, gehe zu [diesem Abschnitt](#definierte-integers).
 
 ```cpp
 void setup(){
