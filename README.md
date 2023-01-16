@@ -2,6 +2,8 @@
 
 <a href="https://www.tindie.com/products/arduino-core/outdoor-relay-control/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="Ad" width="200" height="104"></a>
 
+Translated by [@sb-translating](https://github.com/sb-translating)
+
 ## Issues
 
 `#4` Add LCD Display
