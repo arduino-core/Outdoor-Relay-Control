@@ -1,12 +1,12 @@
  ### Integers
 
-An integer is a positive or negative number including `0`.
+Ein `Integer` beziehungsweise eine ganze Zahl besteht aus einer **negativen** oder **positiven** Zahl sowie auch der Zahl Null.
 
 ```cpp
 int year = 2023;
 ```
 
-#### Examples
+#### Beispiele
 
 ```cpp
 int zero = 0;
@@ -18,9 +18,9 @@ int positive = 2;
 int negative = -4;
 ```
 
-#### Used Integers
+#### Benutzte ganze Zahlen
 
-In the following list, you'll see all used integers in the project. The definition of the integers is [here](#defined-integers).
+In der nachfolgenden Liste siehst du alle, im Projekt verwendeten `Integers` beziehungsweise ganze Zahlen. Die Definitation der `Integers` findest du [hier](#definierte-integers).
 
 ```cpp
 int potentiometer_value1;
@@ -68,9 +68,9 @@ int potentiometer_clock_max;
 int clock_time;
 ```
 
-#### Defined Integers
+#### Definierte Integers
 
-The following list contains definitions of used integers in this project.
+In dieser Liste sind alle `Integers` beziehungsweise ganze Zahlen, die in diesem Projekt verwendet wurden, definiert.
 
 ```cpp
 int potentiometer_value1 = 0;
