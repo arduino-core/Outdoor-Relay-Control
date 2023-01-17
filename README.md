@@ -12,6 +12,8 @@
 
 `#7 Pull request` translated README.md to Bulgarian
 
+`#8 Pull request` void = Functions (Функци) and Functions = Project Functions (Функци на проекта)
+
 ## Components and suplies
 
 * `1` Arduino Uno R3
