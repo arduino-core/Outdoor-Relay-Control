@@ -12,7 +12,7 @@
 
 `#7 Pull request` translated README.md to Bulgarian
 
-`#8 Pull request` void = Functions (Функци) and Functions = Project Functions (Функци на проекта)
+`#8 Pull request` Merge pull request [#8](/pulls/#8) from MitkoVtori/master 
 
 ## Components and suplies
 
