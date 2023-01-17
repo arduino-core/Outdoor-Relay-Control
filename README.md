@@ -162,7 +162,7 @@ int potentiometer_clock_max = 0;
 int clock_time = 0;
 ```
 
-### `void`
+### Functions
 
 ```cpp
 void {function}({attributes}){
@@ -180,7 +180,7 @@ void loop(){
 }
 ```
 
-#### Functions
+#### Project Functions
 
 See all functions used in this project. To see the definitions of integers, see [this section](#defined-integers).
 
