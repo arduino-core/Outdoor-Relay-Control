@@ -4,7 +4,7 @@
 
 ## 問題和拉取請求
 
-`#4` Add LCD Display
+`#4` 添加液晶顯示器
 
 `#5` Add RTC Module
 
