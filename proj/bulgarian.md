@@ -39,8 +39,6 @@
 
 ## Описание на проекта
 
-[Английски](/proj/english.md)
-
 [Български](/proj/bulgarian.md)
 
 [Немски](/proj/german.md)
