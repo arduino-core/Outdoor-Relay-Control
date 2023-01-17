@@ -10,6 +10,8 @@
 
 `#6` Finish Integers section
 
+`#7 Pull request` translated README.md to Bulgarian
+
 ## Components and suplies
 
 * `1` Arduino Uno R3
