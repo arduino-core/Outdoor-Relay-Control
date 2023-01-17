@@ -21,20 +21,20 @@
 * `1` Breadbord 400 points
 * `?` Female Jumper Wires
 * `?` Male Jumper Wires
-* `1` Temperature Sensor TMP36
+* `1` Temperatur Sensor TMP36
 * `1` LCD Display
 
 ## Tools and Maschinen
 
-* `1` 3D printer
+* `1` 3D Drucker
 
 ## Links
 
-[Source Code](https://github.com/arduino-core/Outdoor-Relay-Control)
+[Quellcode](https://github.com/arduino-core/Outdoor-Relay-Control)
 
-[Documentation](https://hackaday.io/project/189172-outdoor-relay-control)
+[Dokumentation](https://hackaday.io/project/189172-outdoor-relay-control)
 
-[Design Files](https://wokwi.com/projects/353834225920033793)
+[Design Dateien](https://wokwi.com/projects/353834225920033793)
 
 [Shop](https://www.tindie.com/products/arduino-core/outdoor-relay-control/)
 
@@ -48,7 +48,7 @@
 
 ### Ganze Zahlen
 
-An integer is a positive or negative number including `0`.
+Ganze Zahlen beziehungsweise `Integer` bestehen aus einer positiven oder negativen Zahl sowie `0`.
 
 ```cpp
 int year = 2023;
@@ -66,9 +66,9 @@ int positive = 2;
 int negative = -4;
 ```
 
-#### Integers
+#### Integer
 
-In the following list, you'll see all used integers in the project. The definition of the integers is [here](#defined-integers).
+In der folgenden Liste siehst du alle im Projekt verwendeten ganze Zahlen beziehungsweise `Integer`. Die Definition dieser findest du [hier](#definierte-integer).
 
 ```cpp
 int potentiometer_value1;
@@ -116,9 +116,9 @@ int potentiometer_clock_max;
 int clock_time;
 ```
 
-#### Defined Integers
+#### Definierte Integer
 
-The following list contains definitions of used integers in this project.
+Die folgende Liste enthält alle im Projekt benutzten ganze Zahlen beziehungsweise `Integer`, welche definiert sind.
 
 ```cpp
 int potentiometer_value1 = 0;
@@ -166,27 +166,27 @@ int potentiometer_clock_max = 0;
 int clock_time = 0;
 ```
 
-### Functions
+### Funktionen
 
 ```cpp
 void {function}({attributes}){
-  // Run your code here
+  // Hier ist dein Code
 }
 ```
 ```cpp
 void setup(){
-  // This code runs one time
+  // Diese Funktion lässt den Code am Anfang einmal wiederholen
 }
 ```
 ```cpp
 void loop(){
-  // This code runs immediately
+  // Dieser Code wiederholt sich ohne Verzögerung
 }
 ```
 
-#### Project Functions
+#### Funktionen in diesem Projekt
 
-See all functions used in this project. To see the definitions of integers, see [this section](#defined-integers).
+Hier sind alle Funktionen aus diesem Projekt. Die Definition der ganzen Zahlen beziehungsweise `Integer` findest du in [diesem Abschnitt](#definierte-integer).
 
 ```cpp
 void setup(){
@@ -277,6 +277,6 @@ void rgb_led_procress(){
   }
 ```
 
-### Support us
+### Unterstütze uns
 
-:wink: You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
+:wink: Du kannst uns unterstützen, indem du ein original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/) kaufst.
