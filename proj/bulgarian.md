@@ -2,55 +2,55 @@
 
 <a href="https://www.tindie.com/products/arduino-core/outdoor-relay-control/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="Ad" width="200" height="104"></a>
 
-## Issues
+## Проблеми
 
-`#4` Add LCD Display
+`#4` Добавете LCD дисплей
 
-`#5` Add RTC Module
+`#5` Добавяне на RTC модул
 
-`#6` Finish Integers section
+`#6` Завършете секцията с цели числа
 
-## Components and suplies
+## Компоненти и консумативи
 
 * `1` Arduino Uno R3
-* `1` Breadboard 800 points
-* `1` Breadbord 400 points
-* `?` Female Jumper Wires
-* `?` Male Jumper Wires
-* `1` Temperature Sensor TMP36
-* `1` LCD Display
+* `1` Mакет 800 точки
+* `1` Mакет 400 точки
+* `?` Женски кабели
+* `?` Мъжки кабели
+* `1` Температурен сензор TMP36
+* `1` ЛСД дисплей
 
-## Tools and machines
+## Инструменти и машини
 
-* `1` 3D printer
+* `1` 3D принтер
 
-## Links
+## Линкове
 
-[Source Code](https://github.com/arduino-core/Outdoor-Relay-Control)
+[Програмен код](https://github.com/arduino-core/Outdoor-Relay-Control)
 
-[Documentation](https://hackaday.io/project/189172-outdoor-relay-control)
+[Документация](https://hackaday.io/project/189172-outdoor-relay-control)
 
-[Design Files](https://wokwi.com/projects/353834225920033793)
+[Дизайнерски файлове](https://wokwi.com/projects/353834225920033793)
 
-[Shop](https://www.tindie.com/products/arduino-core/outdoor-relay-control/)
+[Магазин](https://www.tindie.com/products/arduino-core/outdoor-relay-control/)
 
-## Project description
+## Описание на проекта
 
-[English](/proj/english.md)
+[Английски](/proj/english.md)
 
-[Bulgarian](/proj/bulgarian.md)
+[Български](/proj/bulgarian.md)
 
-[German](/proj/german.md)
+[Немски](/proj/german.md)
 
-### Integers
+### Цели числа
 
-An integer is a positive or negative number including `0`.
+Цяло число е положително или отрицателно число, включително `0`.
 
 ```cpp
 int year = 2023;
 ```
 
-#### Examples
+#### Примери
 
 ```cpp
 int zero = 0;
@@ -62,9 +62,9 @@ int positive = 2;
 int negative = -4;
 ```
 
-#### Used Integers
+#### Използвани цели числа
 
-In the following list, you'll see all used integers in the project. The definition of the integers is [here](#defined-integers).
+В следващия списък ще видите всички използвани цели числа в проекта. Дефиницията на целите числа е [тук](#Дефинирани-цели-числа).
 
 ```cpp
 int potentiometer_value1;
@@ -112,9 +112,9 @@ int potentiometer_clock_max;
 int clock_time;
 ```
 
-#### Defined Integers
+#### Дефинирани цели числа
 
-The following list contains definitions of used integers in this project.
+Следният списък съдържа дефиниции на използвани цели числа в този проект.
 
 ```cpp
 int potentiometer_value1 = 0;
@@ -180,9 +180,9 @@ void loop(){
 }
 ```
 
-#### Functions
+#### Функции
 
-See all functions used in this project. To see the definitions of integers, see [this section](#defined-integers).
+Вижте всички функции, използвани в този проект. За да видите дефинициите на цели числа, вижте [този раздел](#Дефинирани-цели-числа).
 
 ```cpp
 void setup(){
@@ -273,6 +273,6 @@ void rgb_led_procress(){
   }
 ```
 
-### Support us
+### Подкрепете ни
 
-:wink: You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
+:wink: Можете да ни подкрепите със закупуване на оригинален [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
