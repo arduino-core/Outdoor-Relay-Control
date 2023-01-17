@@ -24,7 +24,7 @@
 * `1` Temperature Sensor TMP36
 * `1` LCD Display
 
-## Tools and machines
+## Tools and Maschinen
 
 * `1` 3D printer
 
@@ -38,7 +38,7 @@
 
 [Shop](https://www.tindie.com/products/arduino-core/outdoor-relay-control/)
 
-## Project description
+## Project Beschreibung
 
 [English](/proj/english.md)
 
@@ -46,7 +46,7 @@
 
 [German](/proj/german.md)
 
-### Integers
+### Ganze Zahlen
 
 An integer is a positive or negative number including `0`.
 
@@ -54,7 +54,7 @@ An integer is a positive or negative number including `0`.
 int year = 2023;
 ```
 
-#### Examples
+#### Beispiele
 
 ```cpp
 int zero = 0;
@@ -66,7 +66,7 @@ int positive = 2;
 int negative = -4;
 ```
 
-#### Used Integers
+#### Integers
 
 In the following list, you'll see all used integers in the project. The definition of the integers is [here](#defined-integers).
 
