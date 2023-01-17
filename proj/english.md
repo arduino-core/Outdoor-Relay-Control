@@ -1,5 +1,5 @@
 > **Note**
-> This file is not up to date with the `README.md` - **[`Help translating this file`](/CONTRIBUTING.md)**
+>  This file is not up to date with `README.md` - **[`Help translating this file`](/CONTRIBUTING.md)**
 
 ### Integers
 
