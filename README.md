@@ -38,6 +38,8 @@
 
 [English](/proj/english.md)
 
+[Bulgarian](/proj/bulgarian.md)
+
 [German](/proj/german.md)
 
 ### Integers
