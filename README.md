@@ -10,9 +10,9 @@
 
 `#6` Finish Integers section
 
-`#7 Pull request` translated README.md to Bulgarian
+`#7 Pull request` Merge pull request https://github.com/arduino-core/Outdoor-Relay-Control/pull/7 from MitkoVtori/master
 
-`#8 Pull request` Merge pull request [#8](/pulls/#8) from MitkoVtori/master 
+`#8 Pull request` Merge pull request https://github.com/arduino-core/Outdoor-Relay-Control/pull/8 from MitkoVtori/master 
 
 ## Components and suplies
 
