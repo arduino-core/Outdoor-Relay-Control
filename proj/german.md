@@ -279,4 +279,4 @@ void rgb_led_procress(){
 
 ### Unterstütze uns
 
-:wink: Du kannst uns unterstützen, indem du ein original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/) kaufst.
+:wink: Du kannst uns unterstützen, indem du ein [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/) kaufst.
