@@ -1,6 +1,3 @@
-> **Note**
->  This file is almost translated - **[`Help translating this file`](/CONTRIBUTING.md)**
-
 # Outdoor Relay Control
 
 <a href="https://www.tindie.com/products/arduino-core/outdoor-relay-control/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="Ad" width="200" height="104"></a>
