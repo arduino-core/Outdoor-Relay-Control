@@ -64,7 +64,7 @@ int negative = -4;
 
 #### Използвани цели числа
 
-В следващия списък ще видите всички използвани цели числа в проекта. Дефиницията на целите числа е [тук](#defined-integers).
+В следващия списък ще видите всички използвани цели числа в проекта. Дефиницията на целите числа е [тук](#Дефинирани-цели-числа).
 
 ```cpp
 int potentiometer_value1;
@@ -112,9 +112,9 @@ int potentiometer_clock_max;
 int clock_time;
 ```
 
-#### Defined Integers
+#### Дефинирани цели числа
 
-The following list contains definitions of used integers in this project.
+Следният списък съдържа дефиниции на използвани цели числа в този проект.
 
 ```cpp
 int potentiometer_value1 = 0;
@@ -180,9 +180,9 @@ void loop(){
 }
 ```
 
-#### Functions
+#### Функции
 
-See all functions used in this project. To see the definitions of integers, see [this section](#defined-integers).
+Вижте всички функции, използвани в този проект. За да видите дефинициите на цели числа, вижте [този раздел](#Дефинирани-цели-числа).
 
 ```cpp
 void setup(){
@@ -273,6 +273,6 @@ void rgb_led_procress(){
   }
 ```
 
-### Support us
+### Подкрепете ни
 
-:wink: You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
+:wink: Можете да ни подкрепите със закупуване на оригинален [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
