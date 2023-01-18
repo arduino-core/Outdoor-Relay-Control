@@ -16,3 +16,4 @@
 | 快閃記憶體 | 32 KB（ATmega328P)，其中0.5 KB由引導載入程式使用 |
 | SRAM | 2 千位元組 （ATmega328P）|
 | 電丙胺 | 1 KB (ATmega328P) |
+| Clock Speed | 16兆赫 |
