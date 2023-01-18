@@ -14,7 +14,7 @@
 
 `#8 Pull request` Merge pull request https://github.com/arduino-core/Outdoor-Relay-Control/pull/8 from MitkoVtori
 
-`#9 Pull request` Merge pull request https://github.com/arduino-core/Outdoor-Relay-Control/pull/8 from MitkoVtori
+`#9 Pull request` Merge pull request https://github.com/arduino-core/Outdoor-Relay-Control/pull/9 from MitkoVtori
 
 ## Components and suplies
 
