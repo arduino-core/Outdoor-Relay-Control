@@ -18,3 +18,4 @@
 | 電丙胺 | 1 KB (ATmega328P) |
 | Clock Speed | 16兆赫 |
 | LED_BUILTIN | 十三 |
+| 長度 | 68.6 毫米 |
