@@ -16,7 +16,7 @@
 | 快閃記憶體 | 32 KB（ATmega328P)，其中0.5 KB由引導載入程式使用 |
 | SRAM | 2 KB（ATmega328P）|
 | 電丙胺 | 1 KB (ATmega328P) |
-| Clock Speed | 16兆赫 |
+| 時鐘速度 | 16兆赫 |
 | LED_BUILTIN | 十三 |
 | 長度 | 68.6 毫米 |
 | 寬度 | 53.4 毫米 |
