@@ -164,17 +164,17 @@ int clock_time = 0;
 
 ```cpp
 void {function}({attributes}){
-  // Run your code here
+  // Стартирай твоя код тук
 }
 ```
 ```cpp
 void setup(){
-  // This code runs one time
+  // Този код се рънва веднъж.
 }
 ```
 ```cpp
 void loop(){
-  // This code runs immediately
+  // Този код се изпълнява незабавно
 }
 ```
 
@@ -230,10 +230,10 @@ void potentiometer_switch(){
   potentiometer_analogValue4 = map(potentiometer_value4, 0, 1023, 0, 45);
   rgb_led_procress();
   if (temperature_value >= potentiometer_temperature_min){
-    // Turn on the Relay
+    // Включете релето
     }
   else if (temperature_value <= potentiometer_temperature_max){
-    // Turn off the Relay
+    // Изключете релето
     }
   if (clock_time >= potentiometer_clock_min){
     temperature_sensor();
