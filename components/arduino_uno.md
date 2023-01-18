@@ -17,3 +17,4 @@
 | SRAM | 2 千位元組 （ATmega328P）|
 | 電丙胺 | 1 KB (ATmega328P) |
 | Clock Speed | 16兆赫 |
+| LED_BUILTIN | 十三 |
