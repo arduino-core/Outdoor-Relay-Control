@@ -48,18 +48,4 @@
 
 [German](/proj/german.md)
 
-**Overview**
-
-* [About Open-Source](#about-open-source)
-* [Rights and Copyright](#rights-and-copyright)
-* [Getting started](#getting-started)
-
-#### About Open-Source
-
-```
-Open-Source means the code is public and for everyone.
-```
-
-#### Rights and Copyright
-
 ### Getting started
