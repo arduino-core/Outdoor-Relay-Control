@@ -49,3 +49,5 @@
 [German](/proj/german.md)
 
 ### Getting started
+
+`1.` Connect the jumper wires like the following scheme.
