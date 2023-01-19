@@ -51,7 +51,14 @@
 **Overview**
 
 * [About the project](#about-the-project)
+  * [About Open-Source](#about-open-source)
+  * [Rights and Copyright](#rights-and-copyright)
+* [Getting started](#getting-started)
 
-### Support us
+### About the project
 
-:wink: You can support us with buying an original [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
+#### About Open-Source
+
+#### Rights and Copyright
+
+### Getting started
