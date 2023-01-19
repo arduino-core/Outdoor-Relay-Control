@@ -16,6 +16,8 @@
 
 `#9 Pull request` Merge pull request https://github.com/arduino-core/Outdoor-Relay-Control/pull/9 from MitkoVtori
 
+`#11` Finish App Development
+
 ## Components and suplies
 
 * `1` Arduino Uno R3
