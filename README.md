@@ -50,4 +50,6 @@
 
 ### Getting started
 
-`1.` Connect the jumper wires like the following scheme.
+`1.` Look at the required components in [this](#components-and-suplies) section
+
+`2.` If you doesn't have some components, you can support us with buying them at our [shop](https://www.tindie.com/products/arduino-core/)
