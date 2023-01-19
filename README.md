@@ -23,7 +23,7 @@
 * `1` [Arduino Uno Rev3](https://www.tindie.com/products/29132/)
 * `1` [Breadboard 800 points](https://www.tindie.com/products/29133/)
 * `1` [Breadbord 400 points](https://www.tindie.com/products/29134/)
-* `?` Female Jumper Wires
+* `?` [Female Jumper Wires](https://www.tindie.com/products/29135/)
 * `?` Male Jumper Wires
 * `1` Temperature Sensor TMP36
 * `1` LCD Display
