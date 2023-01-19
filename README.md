@@ -50,14 +50,15 @@
 
 **Overview**
 
-* [About the project](#about-the-project)
-  * [About Open-Source](#about-open-source)
-  * [Rights and Copyright](#rights-and-copyright)
+* [About Open-Source](#about-open-source)
+* [Rights and Copyright](#rights-and-copyright)
 * [Getting started](#getting-started)
 
-### About the project
-
 #### About Open-Source
+
+```
+Open-Source means the code is public and for everyone.
+```
 
 #### Rights and Copyright
 
