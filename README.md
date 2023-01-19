@@ -48,9 +48,9 @@
 
 [German](/proj/german.md)
 
-### Welcome
+**Overview**
 
-Thank you for buying an [Outdoor Relay Control](https://www.tindie.com/products/arduino-core/outdoor-relay-control/).
+* [About the project](#about-the-project)
 
 ### Support us
 
