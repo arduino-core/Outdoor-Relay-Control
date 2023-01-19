@@ -20,7 +20,7 @@
 
 ## Components and suplies
 
-* `1` Arduino Uno R3
+* `1` [Arduino Uno Rev3](https://www.tindie.com/products/29132/)
 * `1` Breadboard 800 points
 * `1` Breadbord 400 points
 * `?` Female Jumper Wires
