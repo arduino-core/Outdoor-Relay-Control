@@ -15,6 +15,7 @@ int temperature = 0;
 int potentiometer_clock_min = 0;
 int potentiometer_clock_max = 0;
 int clock_time = 0;
+int button_state = 0;
 
 void setup(){
   Serial.begin(9600);
