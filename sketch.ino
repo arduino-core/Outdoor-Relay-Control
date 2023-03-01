@@ -1,3 +1,5 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 int potentiometer_value1 = 0;
 int potentiometer_value2 = 0;
 int potentiometer_value3 = 0;
@@ -20,6 +22,7 @@ void setup(){
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
+  lcd.begin(0, 0);
 }
 
 void loop(){
@@ -54,6 +57,8 @@ void potentiometer_switch(){
   potentiometer_analogValue2 = map(potentiometer_value2, 0, 1023, 0, 45);
   potentiometer_analogValue3 = map(potentiometer_value3, 0, 1023, 0, 24);
   potentiometer_analogValue4 = map(potentiometer_value4, 0, 1023, 0, 45);
+  lcd.setCursor(0, 0);
+  lcd.print(String(potentiometer_analogValue1) + String(potentiometer_analogValue3));
   rgb_led_procress();
   if (temperature_value >= potentiometer_temperature_min){
     // Turn on the Relay
