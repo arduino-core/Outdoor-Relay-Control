@@ -58,7 +58,7 @@ void potentiometer_switch(){
   potentiometer_analogValue3 = map(potentiometer_value3, 0, 1023, 0, 24);
   potentiometer_analogValue4 = map(potentiometer_value4, 0, 1023, 0, 45);
   lcd.setCursor(0, 0);
-  lcd.print(String(potentiometer_analogValue1) + String(potentiometer_analogValue3));
+  lcd.print(String(potentiometer_analogValue1) + String(" until ") + String(potentiometer_analogValue3));
   rgb_led_procress();
   if (temperature_value >= potentiometer_temperature_min){
     // Turn on the Relay
