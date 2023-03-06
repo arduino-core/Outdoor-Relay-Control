@@ -22,6 +22,8 @@
 
 `#13` Add 7 Segment Display
 
+`#14` Edit changed links
+
 ## Components and suplies
 
 * `1` [Arduino Uno Rev3](https://www.tindie.com/products/29132/)
