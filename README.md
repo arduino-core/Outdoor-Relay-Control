@@ -53,5 +53,3 @@
 [Bulgarian](/proj/bulgarian.md)
 
 [German](/proj/german.md)
-
-### Getting staromponents, you can support us with buying them at our [shop](https://www.tindie.com/products/arduino-core/)
