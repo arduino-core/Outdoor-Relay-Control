@@ -18,6 +18,10 @@
 
 `#11` Finish App Development
 
+`#12` Add Button
+
+`#13` Add 7 Segment Display
+
 ## Components and suplies
 
 * `1` [Arduino Uno Rev3](https://www.tindie.com/products/29132/)
