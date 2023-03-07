@@ -32,7 +32,7 @@
 * `?` [Female Jumper Wires](https://www.tindie.com/products/29135/)
 * `?` [Male Jumper Wires](https://www.tindie.com/products/29136/)
 * `1` [Temperature Sensor TMP36](https://www.tindie.com/products/29156/)
-* `1` LCD Display
+* `1` [LCD Display](https://www.tindie.com/products/29580/)
 
 ## Tools and machines
 
@@ -46,7 +46,7 @@
 
 [Design Files](https://wokwi.com/projects/353834225920033793)
 
-[Shop](https://www.tindie.com/products/arduino-core/outdoor-relay-control/)
+[Shop](https://www.tindie.com/products/arduino-core/outdoor-relay-control)
 
 ## Project description
 
