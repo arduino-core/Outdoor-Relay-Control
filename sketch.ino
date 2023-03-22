@@ -15,7 +15,6 @@ int temperature = 0;
 int potentiometer_clock_min = 0;
 int potentiometer_clock_max = 0;
 int clock_time = 0;
-int button_state = 0;
 
 void setup(){
   Serial.begin(9600);
@@ -36,7 +35,7 @@ void pin(int pin, int value){
 
 void temperature_delay(){
   rgb_led(255, 136, 0);
-  delay(18000);
+  delay(3000);
   }
 
 void temperature_sensor(){
