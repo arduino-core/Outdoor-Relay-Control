@@ -34,7 +34,7 @@ void pin(int pin, int value){
 }
 
 void temperature_delay(){
-  rgb_led(255, 136, 0);
+  rgb_led(123, 31, 162);
   delay(3000);
   }
 
@@ -84,19 +84,11 @@ void rgb_led(int value1, int value2, int value3){
 }
 
 void rgb_led_procress(){
-  analogWrite(9, 255);
-  analogWrite(10, 255);
-  analogWrite(11, 255);
+  rgb_led(48, 63, 159);
   delay(1000);
-  analogWrite(9, 0);
-  analogWrite(10, 0);
-  analogWrite(11, 0);
+  rgb_led(0, 0, 0);
   delay(1000);
-  analogWrite(9, 255);
-  analogWrite(10, 255);
-  analogWrite(11, 255);
+  rgb_led(48, 63, 159);
   delay(1000);
-  analogWrite(9, 0);
-  analogWrite(10, 0);
-  analogWrite(11, 0);
+  rgb_led(0, 0, 0);
   }
