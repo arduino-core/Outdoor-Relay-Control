@@ -24,6 +24,8 @@
 
 `#14` Edit changed links
 
+`#15` Add wireless socket
+
 ## Components and suplies
 
 * `1` [Arduino Uno Rev3](https://www.tindie.com/products/29132/)
