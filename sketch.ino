@@ -23,6 +23,7 @@ void setup(){
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
   lcd.begin(0, 0);
+  Serial.println("1: #include <LiquidCrystal.h>");
 }
 
 void loop(){
