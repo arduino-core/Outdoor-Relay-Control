@@ -26,6 +26,8 @@
 
 `#15` Add wireless socket
 
+`#16` Connect 5V to Plus
+
 ## Components and suplies
 
 * `1` [Arduino Uno Rev3](https://www.tindie.com/products/29132/)
